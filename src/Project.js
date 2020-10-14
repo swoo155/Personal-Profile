@@ -19,12 +19,9 @@ class Project extends Component {
       <Container>
         <div id="contents">  
           <p id="title">PROJECT DESCRIPTION</p>
-          <p>
-            
-          </p>
           <br></br>
           <br></br>
-          <Collapsible class="collapsible" trigger="IRD Foreign Tax Project (CRS Reporting)">
+          <p id="title">IRD Foreign Tax Project (CRS Reporting)</p>
           <p id="norm">Common Reporting Standard (CRS) is a global OECD
             initiative to address offshore tax evasion. CRS requires
             customer information to be collected by financial institutions 
@@ -32,20 +29,21 @@ class Project extends Component {
             authorities will exchange this information to ensure
             everyone pays the right amount of tax.
           </p>  
-          <p id="norm">
-            My role in this project was to determine the information
-            required for the spreadsheets and instructing the software
-            engineer to provide the data extracts. With data provided,
-            update any changes required and determined that only 
-            customers in CRS reportable jurisdictions are included in the
-            report. Lastly, I have created final customer letters 
-            into PDF and forwarded to the operations consultant for the
-            distribution to customers.
-          </p>
+          <Collapsible class="collapsible" trigger="&#8964;">        
+            <p id="norm">
+              My role in this project was to determine the information
+              required for the spreadsheets and instructing the software
+              engineer to provide the data extracts. With data provided,
+              update any changes required and determined that only 
+              customers in CRS reportable jurisdictions are included in the
+              report. Lastly, I have created final customer letters 
+              into PDF and forwarded to the operations consultant for the
+              distribution to customers.
+            </p>
           </Collapsible>
           <br></br>
           <br></br>
-          <Collapsible class="collapsible" trigger="ANZ Multi Policy Discount">
+          <p id="title">ANZ Multi Policy Discount</p>
           <p id="norm">
             ANZ customers are entitled to a package discount if 
             two or more eligible risked are insured. An error was
@@ -54,6 +52,7 @@ class Project extends Component {
             set up to remediate customers and apply discounts correctly
             and provide customers with a refund.
           </p>
+          <Collapsible class="collapsible" trigger="&#8964;"> 
           <p id="norm">
             I have assisted in creating customer communication letters 
             to outline the remediation plan, which includes a summary
@@ -65,7 +64,7 @@ class Project extends Component {
           </Collapsible>
           <br></br>
           <br></br>
-          <Collapsible class="collapsible" trigger="Gone No Address Project">
+          <p id="title">Gone No Address Project</p>
           <p id="norm">
             The Gone No Address project is to implement a
             follow-up process to try and recontact clients
@@ -75,6 +74,7 @@ class Project extends Component {
             via text or email. The project involved asking 
             customers to fill in a form to update their details.
           </p>
+          <Collapsible class="collapsible" trigger="&#8964;"> 
           <p id="norm">
             With a growing concern for security around personal
             data and email scams, I have drafted messages that 
@@ -87,13 +87,14 @@ class Project extends Component {
           </Collapsible>
           <br></br>
           <br></br>
-          <Collapsible class="collapsible" trigger="Conduct Uplift Program">
+          <p id="title">Conduct Uplift Program</p>
           <p id="norm">
             The project aims to encourage customers to consider their 
             insurance needs across the lifecycle of the policy and
             be more aware of whether their current insurance policy is still suitable, 
             particularly where the customer's circumstances might have changed.
           </p>
+          <Collapsible class="collapsible" trigger="&#8964;"> 
           <p id="norm">
             Respectively worked with the Insurance Solutions team to create a
             spreadsheet that contains the product summary in plain English.
@@ -115,5 +116,7 @@ class Project extends Component {
     );
   }
 }
+
+
  
 export default Project;
