@@ -1,13 +1,159 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #fffef8;
+    padding: 0px;
+    margin: 0;
+  }
+  p {
+    font-family: bangla sangam mn;
+    line-height: 1.5;
+  }
+  header:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.493);
+  }
+  #line{
+    float:right;
+    margin-right: 20%;
+    font-size: 6vw;
+    font-family: sans-serif;
+  }
+  #line:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(170, 209, 219);
+  }
+  .col{
+    padding: 10px;
+    flex: 30%;
+  }
+  .col:nth-child(2){
+    flex: 70%;
+  }
+  #contents{
+    margin-left: 9.7%;
+    margin-top: 35%;
+    font-family: bangla sangam mn;
+    font-size: 1.8vw;
+    width: 50%;
+  }
+  #projectList{
+    margin-left: -10%;
+  }
+  #jobListed{
+    float: left;
+    margin-top: 15%;
+    margin-left: 5%;
+    font-family: bangla sangam mn;
+    transform: rotate(-90deg);
+    font-size: 1.4vw;
+  }
+  #jobListed:hover{
+    transform: rotate(0deg);
+  }
+  #norm{
+    font-weight: 100;
+  }
+  h1 {
+    font-family: bangla sangam mn;
+    margin-right: 30px;
+    max-width: 50%;
+    font-size: 4vw;
+    font-weight: 600;
+  }
+  ul, li {
+    font-family: bangla sangam mn;
+    text-align: center;
+    margin-left: 3em;
+  }
+  .collapsible{
+    font-weight: 700;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  /*.Collapsible:hover{
+    color: rgba(0, 0, 0, 0.712);
+  }*/
+  .projectIntro{
+    margin-top: 35%;
+    margin-left: 9.7%;
+    width: 80%;
+  }
+  #startSubIntro{
+    margin-top: 300px;
+    width: 40%;
+    font-size:2vw;
+    margin-left: 3%;
+  }
+  #title{
+    font-weight: 700;
+    margin-bottom: -5px;
+  }
+#subIntro{
+  width: 50%;
+  font-size:2vw;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#subline{
+  text-align: left;
+  width: 50%;
+  margin-left: 0;
 }
+  hr {
+    color: rgb(34, 34, 34);
+    border-width: .5px;
+  }
+  ul.header li {
+    display: inline;
+    list-style-type: none;
+    font-size: large;
+    padding-left: 0px;
+    margin: 0;
+  }
+  ul.header {
+    background-color: #fffef8;
+    padding: 0;
+  }
+  ul.header li a {
+    color: rgb(34, 34, 34);
+    text-decoration: none;
+    padding-top: 20px;
+    display: inline-block;
+  }
+#portfolio {
+    width: 90%;
+    align-self: auto;
+}
+.imgContainer{
+  position: relative;
+}
+#footer{
+text-align: center;
+font-family: bangla sangam mn;
+font-size: 1.5vw;
+margin-bottom: 2%;
+}
+.scroll-margin-right {
+    position: fixed;
+    overflow-y: scroll;
+    right: 0;
+    top: -70px;
+    width: 100%;
+    z-index: 2;
+    font-size: 14px;
+    color: rgb(34, 34, 34);
+  }
+  .margin-10px .scroll-margin-right {
+    transform: rotate(-90deg);
+    top: calc( 50% 10px );
+    right: calc( -46% - 0px );
+  }
+a{
+  font-family: bangla sangam mn;
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+  margin-right: 70px;
+  font-size: 2vw;
+}
+  a:hover{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.493);
+  }
