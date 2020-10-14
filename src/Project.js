@@ -42,7 +42,6 @@ class Project extends Component {
             </p>
           </Collapsible>
           <br></br>
-          <br></br>
           <p id="title">ANZ Multi Policy Discount</p>
           <p id="norm">
             ANZ customers are entitled to a package discount if 
@@ -62,7 +61,6 @@ class Project extends Component {
             distribution of letters to customers.
           </p>
           </Collapsible>
-          <br></br>
           <br></br>
           <p id="title">Gone No Address Project</p>
           <p id="norm">
@@ -85,7 +83,6 @@ class Project extends Component {
             used in the form.
           </p>
           </Collapsible>
-          <br></br>
           <br></br>
           <p id="title">Conduct Uplift Program</p>
           <p id="norm">
