@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "sanghee-portfolio",
+    "staging": "sangheewoo-project"
+  }
+}
