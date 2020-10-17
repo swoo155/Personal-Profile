@@ -29,7 +29,7 @@ class Project extends Component {
             authorities will exchange this information to ensure
             everyone pays the right amount of tax.
           </p>  
-          <Collapsible class="collapsible" trigger="&#8964;">        
+          <Collapsible class="collapsible" trigger="&#8964;">       
             <p id="norm">
               My role in this project was to determine the information
               required for the spreadsheets and instructing the software

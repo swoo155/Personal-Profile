@@ -64,7 +64,7 @@ body {
     text-align: center;
     margin-left: 3em;
   }
-  .collapsible{
+  #collapsible{
     font-weight: 700;
     align-content: center;
     justify-content: center;
@@ -142,8 +142,7 @@ margin-bottom: 2%;
     color: rgb(34, 34, 34);
   }
   .margin-10px .scroll-margin-right {
-    transform: rotate(-90deg);
-    top: calc( 50% 10px );
+    transform: rotate(-90deg); 
     right: calc( -46% - 0px );
   }
 a{
